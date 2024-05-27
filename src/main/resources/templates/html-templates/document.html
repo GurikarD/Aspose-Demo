@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:remove="all">Template for HTML email with inline image</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+<body>
+
+<p th:text="${name}">
+      
+</p>
+
+<p>Insert an image from a web site:</p>
+<img th:src="${imageResourceName}" alt="Lamp" width="32" height="32">
+
+<h1>The a element</h1>
+
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+</body>
+</html>
