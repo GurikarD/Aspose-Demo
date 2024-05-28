@@ -14,3 +14,5 @@ curl --location --request GET 'localhost:8080/pdf/generate/template' \
 --data-raw '{
     "path" : "/html-templates/document.html"
 }'
+
+Run **AsponseServiceImplTest.java** to test HTML to PDF and vice versa by passing path of html/pdf file path and directory path from resources.
